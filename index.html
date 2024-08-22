@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Oficina Light| Acesso </title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.css" rel="stylesheet">
+
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body class="gray-bg">
+
+    <div class="middle-box text-center loginscreen animated fadeInDown">
+        <div>
+            <h3>Benvindo ao Oficina Light</h3>
+            <div class="m-b-sm">
+                <center>
+                    <img alt="image" class="img-square img-responsive" src="img/logoalianca.png"
+                                                         style="width: 182px">
+                </center>
+            </div>
+            <p>Simplificando a gestão da sua oficina</p>
+            <p><strong>Informe os dados de acesso.</strong></p>
+            <form class="m-t" role="form" method="post" action="validaacesso.php">
+                <div class="form-group">
+                    <input id="cdusua" name = "cdusua" type="text" class="form-control" placeholder="código" required="">
+                </div>
+                <div class="form-group">
+                    <input id="desenh" name = "desenh" type="password" class="form-control" placeholder="senha" required="">
+                </div>
+                <button type="submit" class="btn btn-warning block full-width m-b">Acessar</button>
+                <br>
+                <a href="esqueceuasenha.html"><small>Esqueceu a senha?</small></a>
+                <br>
+            </form>
+            <p class="m-t"> <small>Oficina Light&copy; 2017</small> </p>
+        </div>
+    </div>
+
+    <!-- Mainly scripts -->
+    <script src="js/jquery-2.1.1.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
